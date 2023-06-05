@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.hero-header {
+    background: #ffbf69 url("../images/background.png") no-repeat top 0 right 200px;
+    background-size: 80%;
+    height: 900px;
+    padding: 2rem;
+}
+
+.hero-header__content-button {
+    background-color: #9ac8e3;
+    border: 0;
+    padding: 1rem 3rem;
+    width: 10rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.hero-header__nav {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.hero-header__nav-list {
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    gap: 2rem;
+}
+
+.hero-header__content {
+    color: white;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 12rem;
+    height: 100%;
+}
+
+.hero-header__content-title {
+    font-size: 8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.hero-header__content-description {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.info-text {
+    padding: 5rem 0;
+}
+
+.info-text__title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.info-text__description {
+    margin: auto;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.products {
+    background-color: #9bcae2;
+    padding: 3rem 0;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products__list-item {
+    list-style: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+.products__list-item img {
+    height: 250px;
+}
+
+.products__list-item p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.products__list__button {
+    padding: 0.5rem 3rem;
+    background-color: #ffbf69;
+    border: 0;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.products__title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.rules {
+    display: flex;
+    background: url("../images/bg-grid.png") no-repeat center center;
+    align-items: center;
+    padding: 8rem;
+}
+
+.rules__text {
+
+}
+
+.rules__image {
+    height: 150%;
+}
+
+.footer {
+    background-color: #333333;
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+.footer__list-item--marked {
+    font-weight: 500;
+}
